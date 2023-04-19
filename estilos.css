@@ -4,8 +4,48 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    background-color: papayawhip;
+.navbar {
+    padding: 1rem;
+}
+
+.jumbotron {
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(img/coffee-1867429_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    border-radius: 0;
+}
+
+
+.card-img-top {
+    width: 100%;
+    margin-bottom: 0;
+
+}
+
+.card {
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    border-radius: 16px;
+    padding: 25px 25px 0;
+    margin-bottom: 0;
 }
 
 .page-container {
@@ -41,17 +81,6 @@ body {
     margin-left: 10px;
 }
 
-.card {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    border: 1px solid #f5d315;
-    display: inline-block;
-    border-radius: 16px;
-    padding: 25px;
-    margin-top: 25px;
-
-}
 
 .coffee-image {
     display: block;
@@ -61,7 +90,7 @@ body {
     margin-top: 25px;
 }
 
-footer{
+footer {
     background-color: #fff;
     color: #000;
     text-align: center;
